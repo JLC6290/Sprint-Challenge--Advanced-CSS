@@ -12,9 +12,19 @@ html, body {
   color: @main-font-color;
 }
 
+nav {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2rem;
+}
+
 h1, h2, h3, h4, h5 {
   font-family: 'Russo One', sans-serif;
   color: @header-font-color;
+}
+
+h1 {
+  font-size: 4rem;
+  margin: 2%;
 }
 
 h2 {
@@ -33,6 +43,15 @@ p {
 .container {
   max-width: 800px;
   width: 100%;
-  margin: 0 auto;  
+  padding-top: 130px;
+  margin: 0 auto;
+  @media @phone {
+    max-width: 500px;
+    width: 85%;
+  }
+}
+
+.bgcontainer {
+  .flex-center();
 }
 

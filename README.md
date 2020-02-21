@@ -34,13 +34,27 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+**An adaptive web site will adjust according to given, FIXED parameters. A fully responsive web site will smoothly scale to adapt to the browser, enabling dramatically greater flexibility.**
+
 2. Describe what it means to be mobile first vs desktop first.
+
+**Desiging for desktop first means that the base of your design will structure around a desktop environment. As you build the initial and core functionality of your web site, you'll be testing it in a desktop environment. Then you will adjust and adapt components to scale them down accordingly. Designing for mobile first takes the opposite approach.**
+
+**The distinction seems to be that if you want to make your design really fill out the platform and push its limits, taking full advantage, it seems inevitable that you will find edge-cases where a compromise must be made. In this scenario, what your base design platform was may determine whether you're compromising the desktop experience, or the mobile experience.**
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+**62.5% font-size in the html tag of a page is an emergent, informal standard derived from a typical browser default size of 16px. By setting the root font size of your web page to 62.5%, you'll generally start with a root font-size of 10px (being 62.5% of the browsers default 16px). This keeps the math easy when using rem units to adjust font on your page, making 2rem 20px, 3rem 30px, etc.**
+
 4. How would you describe preprocessing to someone new to CSS?
 
+**Preprocessing enables you to effectively write shorthanded CSS that will be parsed and transposed into the normal syntax. This translating also enables the preprocessor to offer additional features such as mixins and the ability to meaninfully split your CSS into multiple files for greater organization and modularity.**
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+**My favorite feature of preprocessors is the modularity and organization offered, followed closely by real-time compilation tools to enhance my workflow.**
+
+**At this point, I'm having the most trouble with keeping track of my CSS structure in order to design responsive scaling.**
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 

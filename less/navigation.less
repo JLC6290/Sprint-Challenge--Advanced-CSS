@@ -1,1 +1,28 @@
 // Navigation code here
+
+.navbar {
+    .container();
+    padding-top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    height: 120px;
+    background-color: white;
+    nav {
+        width: 60%;
+        display: flex;
+        justify-content: space-between;
+        a {
+            text-decoration: none;
+            color: black;
+        }
+        @media @phone {
+            width: 80%;
+        }
+    }
+    @media @phone {
+        width: 100%
+    }
+}

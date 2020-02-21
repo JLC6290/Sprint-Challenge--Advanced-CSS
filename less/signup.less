@@ -1,0 +1,31 @@
+.signup {
+    width: 80%;
+    margin: 0 auto;
+    .flex-center();
+    input, textarea {
+        width: 70%;
+        margin: 1%;
+        padding: 1%;
+        border: 1px solid gray;
+        font-size: 1rem;
+        @media @phone {
+            width: 100%;
+            font-size: 2rem;
+        }
+    }
+    @media @phone {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .btn {
+        .btn-base(@btn-bg-color,100px, @porcelain);
+    }
+}
+form {
+    .flex-center();
+    flex-direction: column;
+    text-align: center;
+    button {
+        margin: 0 auto;
+    }
+}
