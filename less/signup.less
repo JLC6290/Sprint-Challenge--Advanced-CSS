@@ -1,0 +1,22 @@
+.signup {
+    width: 80%;
+    margin: 0 25%;
+    input, textarea {
+        width: 70%;
+        margin: 1%;
+        padding: 1%;
+        border: 1px solid gray;
+        font-size: 1rem;
+        @media @phone {
+            width: 100%;
+            font-size: 2rem;
+        }
+    }
+    @media @phone {
+        width: 80%;
+        margin: 0 10%;
+    }
+    .btn {
+        .btn-base(@btn-bg-color,100px, @porcelain);
+    }
+}
