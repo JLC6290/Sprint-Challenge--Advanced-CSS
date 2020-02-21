@@ -348,7 +348,9 @@ footer {
 }
 .signup {
   width: 80%;
-  margin: 0 25%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
 }
 .signup input,
 .signup textarea {
@@ -368,7 +370,7 @@ footer {
 @media (max-width: 500px) {
   .signup {
     width: 80%;
-    margin: 0 10%;
+    margin: 0 auto;
   }
 }
 .signup .btn {
@@ -392,4 +394,13 @@ footer {
     width: 100%;
     height: 50px;
   }
+}
+form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+form button {
+  margin: 0 auto;
 }
